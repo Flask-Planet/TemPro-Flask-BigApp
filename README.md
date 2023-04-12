@@ -1,7 +1,8 @@
+![](https://raw.githubusercontent.com/Flask-Planet/TemPro-Flask-BigApp/main/app/static/img/Flask-BigApp-Logo-White-BG.png)
 # TemPro-Flask-BigApp
 (TemPro, Template Project)
 
-Contains a working example of Flask-BigApp, that is available to be used as a template for other projects.
+Get started with Flask-BigApp fast! Contains a working example of Flask-BigApp, that is available to be used as a template for other projects.
 
 ### Attribution
 
