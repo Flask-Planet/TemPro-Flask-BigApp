@@ -1,0 +1,15 @@
+{% extends 'extends/main.html' %}
+
+{% block content %}
+    <p>This is the index.html file found in app/blueprints/www/templates/www/index.html</p>
+    <p>..www/templates/www.. this folder structure is a work around the way that Flask looks
+        up templates files. When Flask looks for a template it searches for the file using a lookup
+        of registered template folders</p>
+    <p>This means if you have two blueprints like this,
+        app/blueprints/bp1/templates/index.html and app/blueprints/bp2/templates/index.html Flask would render the first
+        index.html file it would find. For example if you visit yoursite.com/bp1 it might render
+        bp2/templates/index.html</p>
+    <p>To avoid this we can nest the template folder: app/blueprints/bp1/templates/bp1/index.html and
+        app/blueprints/bp2/templates/bp2/index.html</p>
+    <p>It extends the main.html detailed below</p>
+{% endblock %}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+        {% endblock %}
+    </title>
+</head>
+<body>
+<img src="{{ url_for('static', filename='img/Flask-BigApp-Logo-White-BG.png') }}" alt="logo">
+{% include 'includes/menu.html' %}
+{% block content %}
+
+{% endblock %}
+<p>This is the end of the main.html file, its location is app/templates/extends/main.html its used to extend other templates.</p>
+</body>
+</html>
