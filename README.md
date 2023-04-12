@@ -22,10 +22,10 @@ Viewing the source code of this project acknowledges that you have read and unde
 
 ```text
 # Linux
-cd /path/to/FAS-3-Application-Factory
+cd /path/to/TemPro-Flask-BigApp
 
 # Windows
-cd C:\path\to\FAS-3-Application-Factory
+cd C:\path\to\TemPro-Flask-BigApp
 ```
 
 ---
@@ -51,13 +51,19 @@ pip install -r requirements.txt
 **run**
 
 ```bash
-flask run
+(venv) ...$ flask run
 ```
 
 or
 
 ```bash
-python3 app.py
+(venv) ...$ gunicorn
+```
+
+or
+
+```bash
+...$ venv/bin/gunicorn
 ```
 
 ---
@@ -84,10 +90,4 @@ pip install -r requirements.txt
 
 ```bash
 flask run
-```
-
-or
-
-```bash
-python app.py
 ```
