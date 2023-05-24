@@ -1,4 +1,3 @@
-Flask
-Flask-BigApp
-gunicorn
-supervisor
+Flask==2.3.2
+Flask-BigApp==2023.1.9.2
+flask-sqlalchemy==3.0.3

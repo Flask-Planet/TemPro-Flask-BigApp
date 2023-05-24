@@ -8,6 +8,8 @@ COPY supervisor_apps.ini supervisor_apps.ini
 COPY supervisord.conf supervisord.conf
 COPY gunicorn.conf.py gunicorn.conf.py
 COPY requirements.txt requirements.txt
+COPY requirements-deploy.txt requirements-deploy.txt
 RUN python3 -m venv venv
 RUN venv/bin/pip install -r requirements.txt
+RUN venv/bin/pip install -r requirements-deploy.txt
 CMD ["venv/bin/supervisord", "-c", "supervisord.conf"]
