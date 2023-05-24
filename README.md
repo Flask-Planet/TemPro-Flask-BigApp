@@ -4,6 +4,8 @@
 
 Get started with Flask-BigApp fast! Contains a working example of Flask-BigApp, that is available to be used as a template for other projects.
 
+[Go to Flask-BigApp Wiki](https://github.com/Flask-Planet/Flask-BigApp/wiki)
+
 ### Attribution
 
 [CheeseCake87 (David Carmichael)](https://github.com/CheeseCake87)
